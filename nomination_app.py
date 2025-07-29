@@ -15,7 +15,7 @@ def add_candidate():
 
 def view_candidates():
     if not candidates:
-        print("No nominations yet.\n")
+        print("No recent nominations yet.\n")
         return
 
     print("Nominated Candidates by Position:")
