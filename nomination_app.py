@@ -10,7 +10,7 @@ def add_candidate():
     if position not in candidates:
         candidates[position] = []
 
-    candidates[position].append(name)
+    candidates[1position].append(name)
     print(f"{name} has been nominated for {position}.\n")
 
 def view_candidates():
